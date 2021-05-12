@@ -11,6 +11,9 @@
 		BC236D9F264C40C600975CC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC236D9E264C40C600975CC9 /* ContentView.swift */; };
 		BC236DA1264C40C700975CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC236DA0264C40C700975CC9 /* Assets.xcassets */; };
 		BC236DA4264C40C700975CC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC236DA3264C40C700975CC9 /* Preview Assets.xcassets */; };
+		BC236DAC264C431700975CC9 /* Path2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC236DAB264C431700975CC9 /* Path2.swift */; };
+		BC236DAE264C48B200975CC9 /* Path3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC236DAD264C48B200975CC9 /* Path3.swift */; };
+		BC236DB0264C4C4A00975CC9 /* AngleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC236DAF264C4C4A00975CC9 /* AngleExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		BC236DA0264C40C700975CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC236DA3264C40C700975CC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC236DA5264C40C700975CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC236DAB264C431700975CC9 /* Path2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path2.swift; sourceTree = "<group>"; };
+		BC236DAD264C48B200975CC9 /* Path3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path3.swift; sourceTree = "<group>"; };
+		BC236DAF264C4C4A00975CC9 /* AngleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				BC236D9C264C40C600975CC9 /* PathOperationsApp.swift */,
 				BC236D9E264C40C600975CC9 /* ContentView.swift */,
+				BC236DAB264C431700975CC9 /* Path2.swift */,
+				BC236DAD264C48B200975CC9 /* Path3.swift */,
+				BC236DAF264C4C4A00975CC9 /* AngleExtensions.swift */,
 				BC236DA0264C40C700975CC9 /* Assets.xcassets */,
 				BC236DA5264C40C700975CC9 /* Info.plist */,
 				BC236DA2264C40C700975CC9 /* Preview Content */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC236D9F264C40C600975CC9 /* ContentView.swift in Sources */,
+				BC236DB0264C4C4A00975CC9 /* AngleExtensions.swift in Sources */,
 				BC236D9D264C40C600975CC9 /* PathOperationsApp.swift in Sources */,
+				BC236DAE264C48B200975CC9 /* Path3.swift in Sources */,
+				BC236DAC264C431700975CC9 /* Path2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
